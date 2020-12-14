@@ -1,0 +1,150 @@
+header img {
+	width: 30%;
+}
+
+.original {
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #C9582C;
+	position: relative;
+	text-align: center;
+}
+
+.original_tytle {
+ position: absolute;
+ display: inline-block;
+ left: 0;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ transform: translateY(-50%);
+ text-align:center;
+ text-decoration: none;
+ color: white;
+}
+
+ul {
+	width:50%;
+	border: 2px #F09030 dashed;
+}
+
+.num {
+	border:0;
+	padding:10px;
+	font-size:1.3em;
+	font-family:Arial, sans-serif;
+	border:solid 1px #ccc;
+	margin:0 0 20px;
+	width:250px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #F09030;
+  border: solid 2px #F09030;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.button:hover {
+  background: #F09030;
+  color: white;
+}
+.buttons {
+	position: absolute;
+	left: 10px;
+}
+
+.line {
+	display: block;
+	padding: 30px 5px ;
+	font-size: 20pt;
+}
+
+
+@media screen and ( max-width:479px )
+{
+	header img {
+		width: 65%;
+	}
+
+	.original {
+		display: inline-block;
+		border-radius: 50%;
+		background-color: #C9582C;
+		position: relative;
+		text-align: center;
+	}
+
+	.original_tytle {
+	 position: absolute;
+	 display: inline-block;
+	 left: 0;
+	 top: 50%;
+	 -webkit-transform: translateY(-50%);
+	 transform: translateY(-50%);
+	 text-align:center;
+	 text-decoration: none;
+	 color: white;
+	 font-size: 3vw;
+	}
+
+	ul {
+		width:70%;
+		border: 2px #F09030 dashed;
+	}
+
+	.num {
+		border:0;
+		padding:10px;
+		font-size:1.3em;
+		font-family:Arial, sans-serif;
+		border:solid 1px #ccc;
+		margin:0 0 20px;
+		width:200px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+		-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+		box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+	}
+
+	.button {
+	  display: inline-block;
+	  padding: 0.3em 1em;
+	  text-decoration: none;
+	  color: #F09030;
+	  border: solid 2px #F09030;
+	  border-radius: 3px;
+	  transition: .4s;
+	}
+
+	.button:hover {
+	  background: #F09030;
+	  color: white;
+	}
+	.buttons {
+		position: absolute;
+		left: 10px;
+	}
+
+	.line {
+		display: block;
+		padding: 30px 5px ;
+		font-size: 15pt;
+	}
+}
